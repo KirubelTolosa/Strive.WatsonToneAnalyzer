@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.2.0" />
+    <PackageReference Include="CsvHelper" Version="15.0.6" />
+    <PackageReference Include="IBM.Watson.ToneAnalyzer.v3" Version="4.6.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.8" />
+    <PackageReference Include="Microsoft.OData.Edm" Version="7.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Strive.DAL.Service\Strive.DAL.Service.csproj" />
+  </ItemGroup>
+
+</Project>

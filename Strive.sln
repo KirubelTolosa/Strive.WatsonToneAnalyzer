@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strive.BLL.Service", "Strive.BLL.Service\Strive.BLL.Service.csproj", "{A854CE55-E4A6-4286-B5DF-C0506A71759F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strive.API", "Strive.API\Strive.API.csproj", "{EC744FE5-33AB-41ED-AD06-60533BA55732}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strive.DAL.Service", "Strive.DAL.Service\Strive.DAL.Service.csproj", "{AA592AC9-731F-4255-A7AE-7A77F52AAB81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToneAnalyzer.ConsoleApp", "ToneAnalyzer.ConsoleApp\ToneAnalyzer.ConsoleApp.csproj", "{27790104-EE5C-46E2-B7AE-9154784F9B7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A854CE55-E4A6-4286-B5DF-C0506A71759F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A854CE55-E4A6-4286-B5DF-C0506A71759F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A854CE55-E4A6-4286-B5DF-C0506A71759F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A854CE55-E4A6-4286-B5DF-C0506A71759F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC744FE5-33AB-41ED-AD06-60533BA55732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC744FE5-33AB-41ED-AD06-60533BA55732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC744FE5-33AB-41ED-AD06-60533BA55732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC744FE5-33AB-41ED-AD06-60533BA55732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA592AC9-731F-4255-A7AE-7A77F52AAB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA592AC9-731F-4255-A7AE-7A77F52AAB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA592AC9-731F-4255-A7AE-7A77F52AAB81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA592AC9-731F-4255-A7AE-7A77F52AAB81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27790104-EE5C-46E2-B7AE-9154784F9B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27790104-EE5C-46E2-B7AE-9154784F9B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27790104-EE5C-46E2-B7AE-9154784F9B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27790104-EE5C-46E2-B7AE-9154784F9B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA9BDB20-EC75-4AA5-BD33-F8BF07290DA7}
+	EndGlobalSection
+EndGlobal
