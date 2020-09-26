@@ -1,5 +1,5 @@
 # Strive.WatsonToneAnalyzer
-This API uses to IBM Watson Tone Analyzer to detect emotions in a text and keeps record of Strive App user emotions in user Journal database. 
+This API uses IBM Watson Tone Analyzer to detect emotions in a text and keeps record of Strive App user emotions in user Journal database. 
 <br>
 The API is hosted at:  https://striveapi.azurewebsites.net/index.html
 <br>
