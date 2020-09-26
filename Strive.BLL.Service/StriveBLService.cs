@@ -64,11 +64,11 @@ namespace Strive.BLL.Service
         public ToneAnalysisResultBLDto AnalyzeTextTone(int userId, string textForToneAnalysis)
         {
             IamAuthenticator authenticator = new IamAuthenticator(
-                apikey: "zHCE9sv_3E_frWM9q41CcUDc3uAi5e_6Z4jpi0Y9khlP");
-            var service = new ToneAnalyzerService("2017-09-21", authenticator);
-            service.SetServiceUrl("https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/083c88e7-7cd0-4762-b4c4-09acfe0a4c5c");            
+                apikey: "");
+            var service = new ToneAnalyzerService("", authenticator);
+            service.SetServiceUrl("");            
             ToneInput toneInput = new ToneInput()
-            {
+            {   
                 Text = textForToneAnalysis
             };
             var result = service.Tone(
